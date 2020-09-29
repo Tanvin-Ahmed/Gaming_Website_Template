@@ -1,0 +1,659 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --primary-font: 'Chakra Petch', sans-serif;;
+}
+body{
+    background-color:  rgb(9, 19, 51);
+    font-family: var(--primary-font);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.part{
+    margin: auto;
+}
+a:hover{
+    color: aqua;
+}
+p{
+    font-size: 14px;
+}
+/* start navbar */
+nav ul li{
+    padding: 1rem;
+    text-decoration: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+
+nav ul li .buy{
+    border:1px solid rgb(0, 158, 158);
+    border-radius: 10px;
+    padding: 0.7rem;
+    color: rgb(0, 158, 158);
+    transition: all 0.5s;
+    font-size: 12px;
+    text-align: center;
+}
+nav ul li .buy:hover{
+    background-color: rgb(0, 158, 158);
+    color: white;
+}
+nav .demo{
+    border: 1px solid blue;
+    border-radius: 10px;
+    opacity: 0;
+}
+nav .demo .demo-item{
+    text-decoration: none;
+}
+/* end navbar */
+
+/* start hero */
+.hero{
+    margin-top: 6rem;
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url(./img/cover/games_e284960004.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+.hero .head-line{
+    box-sizing: border-box;
+    padding-top: 20%;
+}
+.hero .head-line button{
+    padding: 1rem;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(14, 1, 71);
+    color: aqua;
+    transition: all 0.5s;
+}
+.hero .head-line button:hover{
+    color: rgb(26, 26, 26);
+    background-color: rgb(1, 184, 184);
+}
+/* end hero */
+
+/* start spotlight section */
+.spotlight{
+    color: white;
+}
+
+.spotlight .container .row{
+    background-color: rgb(29, 28, 54);
+    border-radius: 20px;
+}
+.spotlight img{
+    width: 465px;
+    height: 322px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.spotlight .row .text{
+    padding: 2rem;
+}
+.spotlight .row{
+    color: white;
+    transition: color 0.5s;
+}
+.spotlight .row:hover h4{
+    color: aqua;
+}
+.spotlight .part .second{
+    margin-left: -15px;
+    border-radius: 0%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.spotlight .part .but{
+    padding: 0.6rem;
+    background-color: rgb(41, 40, 69);
+    border: 1px solid rgb(1, 184, 184);
+    border-radius: 10px;
+    color: rgb(1, 184, 184);
+    font-size: 11px;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+.spotlight .part .but:hover{
+    background-color: rgb(1, 184, 184);
+    color: white;
+}
+/* end spotlight section */
+
+/* start defect section */
+.defect .part .date{
+    margin-left: 80%;
+}
+.defect .part-one p{
+    margin-bottom: 0%;
+}
+.defect .part-one small{
+    color: aqua;
+}
+.defect .part-one .one{
+    background-color: rgb(120, 6, 214);
+    width: 35%;
+    height: 5px;
+    display: inline-block;
+    margin-top: 0%;
+    margin-right: 55%;
+}
+.defect .part-one .two{
+    width: 56%;
+    margin-right: 34%;
+    background-color: rgb(173, 28, 209);
+}
+.defect .part-one .three{
+    width: 65%;
+    margin-right: 25.5%;
+    background-color: rgb(219, 10, 209);
+}
+.defect .part-one .four{
+    width: 90%;
+    margin-right:0%;
+    background-color: aqua;
+}
+.defect .part-one .five{
+    width: 15%;
+    margin-right: 77%;
+    background-color: rgb(42, 224, 81);
+}
+/* end defect section */
+
+/* start card section */
+.card-one{
+    text-align: center;
+    margin-top: 5rem;
+}
+.card-one .part{
+    background-color: rgb(29, 28, 54);
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin-top: 1rem;
+}
+.card-one .part:hover{
+    transform: translateY(-15px);
+}
+.card-one .part:hover small{
+    color: aqua;
+}
+/* end card section */
+
+/* start virtual section */
+.virtual{
+    margin-top: 8rem;
+}
+.virtual .part img{
+    width: 650px;
+    border-radius: 20px;
+}
+.virtual .video{
+    text-align: center;
+}
+.virtual iframe{
+    border-radius: 10px;
+}
+.virtual .quote{
+    background-color: rgb(23, 34, 70);
+    border-radius: 20px;
+    padding: 1rem;
+}
+.virtual .quote h1{
+    color: aqua;
+}
+.virtual .quote small{
+    margin-left: 0rem;
+}
+.virtual .quote .date2{
+    color: aqua;
+    margin-left: 550px;
+}
+/* end virtual section */
+
+/* start aq section */
+.aq{
+    margin-top: 6rem;
+}
+.aq .row{
+    margin: 0%;
+}
+.aq .part{
+    margin: 0%;
+    padding: 1rem;
+}
+.aq .part .pera h1{
+   display: inline;
+   position: absolute;
+   opacity: 0.2;
+   transition: all 0.5s;
+}
+.aq .part:hover h1{
+    background-color: aqua;
+    border-radius: 40%;
+    padding: 0.6rem;
+    transform: translate(321px, -30px);
+    position: absolute;
+    opacity: 1;
+}
+
+/* end aq section */
+
+/* start form section */
+form{
+    background-color: rgb(34, 34, 90);
+    padding: 2rem;
+    width: 57%;
+    border-radius: 20px;
+    height: 296px;
+    margin: auto;
+}
+form textarea{
+    color: aqua;
+    border: 1px solid rgb(16, 16, 73);
+    border-radius: 7px;
+    transition: all 0.5s;
+    background-color: rgb(16, 16, 73);
+    padding: 1rem;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+form textarea:hover,
+form textarea:focus{
+    border: 1px solid aqua;
+    outline: none;
+}
+form .form-control{
+    background-color: rgb(16, 16, 73);
+    color: white;
+    border: 1px solid rgb(16, 16, 73);
+    transition: border 0.5s;
+}
+.form-group{
+    margin: auto;
+    text-align: center;
+}
+form .form-control:hover,
+form .form-control:focus{
+    outline: none;
+    border: 1px solid aqua;
+    background-color: rgb(16, 16, 73);
+}
+form button{
+    padding:0.3rem 0.8rem;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: rgb(0, 161, 161);
+    margin: auto;
+    border: 1px solid rgb(0, 161, 161);
+    border-radius: 10px;
+    margin-top: -12px;
+    color: white;
+    transition: all 0.5s;
+}
+form button:hover{
+    background-color: rgb(0, 92, 92);
+}
+form .form-one{
+    display: flex;
+}
+/* end form section */
+
+/* start cotact section */
+.contact .part .phone i{
+    font-size: 42px;
+    color: aqua;
+    margin-top: 2rem;
+}
+.contact .part .phone span{
+    position: absolute;
+    top: 6.5rem;
+    padding: 5px;
+}
+.contact .part .phone small{
+    position: absolute;
+    top: 8rem;
+    padding: 5px;
+}
+.contact .part .location i{
+    font-size: 42px;
+    color: aqua;
+}
+.contact .part .location span{
+    position: absolute;
+    padding: 5px;
+}
+.contact .part .location small{
+    position: absolute;
+    top: 12rem;
+    padding: 5px;
+}
+.contact .part .mail i{
+    font-size: 42px;
+    color: aqua;
+}
+.contact .part .mail span{
+    position: absolute;
+    padding: 5px;
+}
+.contact .part .mail small{
+    position: absolute;
+    top: 15.5rem;
+    padding: 5px;
+}
+.contact .part .social i{
+    color: aqua;
+    padding: 1rem;
+    font-size: 26px;
+}
+.contact .bottom-logo img{
+    width: 150px;
+    margin: auto;
+}
+.contact .part .menu ul{
+    display: flex;
+    float:right;
+    list-style: none;
+}
+.contact .part .menu ul li{
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+.contact .part .menu ul li a{
+    color: white;
+    transition: color 0.4s;
+}
+.contact .part .menu ul li a:hover{
+    color: aqua;
+}
+.contact .part .so-i a{
+    padding: 0.5rem;
+    color: aqua;
+}
+/* end cotact section */
+
+
+/* responsive part */
+@media(max-width:991px){
+  .part{
+      text-align: center;
+      margin: auto;
+  }
+  .part-one{
+      text-align: left;
+  }
+  .text{
+      padding: 0;
+      margin: auto;
+  }
+  .spotlight .part img{
+      border-radius: 20px;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+  }
+  .spotlight .part .second{
+      border-radius: 20px;
+      margin: auto;
+      margin-top: 2rem;
+  }
+  form .form-one{
+    display: inline-block;
+    margin: auto;
+    margin-left: 1rem;
+}
+  form textarea{
+      width: 300px;
+  }
+}
+@media(max-width:767px){
+    nav a span{
+        display: inline;
+    }
+    .card-one .part{
+        transform: scale(1);
+        transition: transform 0.5s;
+    }
+    .card-one .part:hover{
+        transform: scale(1.1);
+        box-shadow: 2px 2px 10px 0px aqua;
+    }
+
+    .aq .part .pera h1{
+        display: inline;
+        position: absolute;
+        opacity: 0.2;
+        transition: all 0.5s;
+     }
+     .aq .part:hover h1{
+         background-color: aqua;
+         border-radius: 40%;
+         padding: 0.6rem;
+         transform: translate(170px, -30px);
+         position: absolute;
+         opacity: 1;
+     }
+     form textarea{
+        width: 200px;
+    }
+    .virtual .part img{
+        width: 450px;
+        border-radius: 20px;
+    }
+    .virtual .quote .date2{
+        margin-left: 8rem;
+    }
+    .virtual .video iframe{
+        width: 400px;
+    }
+}
+@media(max-width:577px){
+    .spotlight img{
+        width: 350px;
+        height: auto;
+    }
+}
+@media(max-width:529px){
+    .aq .part .pera h1{
+        display: inline;
+        position: absolute;
+        opacity: 0.2;
+        transition: all 0.5s;
+     }
+     .aq .part:hover h1{
+         background-color: aqua;
+         border-radius: 40%;
+         padding:0 0.3rem;
+         transform: translate(-20px, -50px);
+         position: absolute;
+         opacity: 1;
+     }
+     .virtual .part img{
+         width: 350px;
+     }
+}
+@media(max-width:485px){
+    form textarea{
+        width: 150px;
+    }
+    .contact .mapouter iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media(max-width:459px){
+    .contact .part .phone i{
+        font-size: 42px;
+        color: aqua;
+        margin-top: 2rem;
+    }
+    .contact .part .phone span{
+        position: absolute;
+        top: 7rem;
+        padding: 5px;
+    }
+    .contact .part .phone small{
+        position: absolute;
+        top: 8rem;
+        padding: 5px;
+    }
+    .contact .part .location i{
+        font-size: 42px;
+        color: aqua;
+    }
+    .contact .part .location span{
+        position: absolute;
+        padding: 5px;
+    }
+    .contact .part .location small{
+        position: absolute;
+        top: 13.5rem;
+        padding: 5px;
+    }
+    .contact .part .mail i{
+        font-size: 42px;
+        color: aqua;
+    }
+    .contact .part .mail span{
+        position: absolute;
+        padding: 5px;
+    }
+    .contact .part .mail small{
+        position: absolute;
+        top: 17rem;
+        padding: 5px;
+    }
+    .contact .mapouter{
+        display: none;
+    }
+}
+@media(max-width:434px){
+    .virtual .video iframe{
+        width: 300px;
+        height: 200px;
+    }
+    .contact .menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:397px){
+    .spotlight img{
+        width: 240px;
+        height: auto;
+    }
+    .part{
+        margin: auto;
+    }
+    .defect .part .date{
+        margin-left: 70%;
+    }
+    .virtual .part img{
+        width: 250px;
+    }
+    form textarea{
+        width: 130px;
+    }
+    form .form-one{
+        margin-left: 0px;
+    }
+    form{
+        height: 310px;
+    }
+}
+@media(max-width:395px){
+    .contact .part .phone i{
+        font-size: 42px;
+        color: aqua;
+        margin-top: 2rem;
+    }
+    .contact .part .phone span{
+        position: absolute;
+        top: 10.5rem;
+        padding: 5px;
+    }
+    .contact .part .phone small{
+        position: absolute;
+        top: 12rem;
+        padding: 5px;
+    }
+    .contact .part .location i{
+        font-size: 42px;
+        color: aqua;
+    }
+    .contact .part .location span{
+        position: absolute;
+        padding: 5px;
+    }
+    .contact .part .location small{
+        position: absolute;
+        top: 16.5rem;
+        padding: 5px;
+    }
+    .contact .part .mail i{
+        font-size: 42px;
+        color: aqua;
+    }
+    .contact .part .mail span{
+        position: absolute;
+        padding: 5px;
+    }
+    .contact .part .mail small{
+        position: absolute;
+        top: 20rem;
+        padding: 5px;
+    }
+}
+@media(max-width:359px){
+    form textarea{
+        width: 100px;
+    }
+    .virtual .video iframe{
+        width: 250px;
+    }
+    .defect .part-one .four{
+        width: 88%;
+    }
+    .contact .part .icon .phone,
+    .contact .part .icon .location,
+    .contact .part .icon .mail
+    {
+        margin-left: -12rem;
+    }
+    .copy h5{
+        font-size: 14px;
+    }
+}
+@media(max-width:303px){
+    form{
+        height: 350px;
+    }
+    form textarea{
+        height: 140px;
+        width: 90px;
+    }
+    .defect .part-one .five{
+        width: 15%;
+        margin-right: 73%;
+        background-color: rgb(42, 224, 81);
+    }
+}
